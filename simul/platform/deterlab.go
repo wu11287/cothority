@@ -30,8 +30,8 @@ import (
 	"time"
 
 	"cothority/log"
+	"cothority/sda"
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/sda"
 )
 
 // Deterlab holds all fields necessary for a Deterlab-run

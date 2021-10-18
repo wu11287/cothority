@@ -18,7 +18,7 @@ import (
 	"cothority/monitor"
 	"cothority/simul/platform"
 
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 )
 
 var kill = false

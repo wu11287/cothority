@@ -8,14 +8,14 @@ import (
 	"flag"
 
 	"cothority/log"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 
 	"cothority/monitor"
-	"github.com/dedis/cothority/protocols/manage"
+	"cothority/protocols/manage"
 	// Empty imports to have the init-functions called which should
 	// register the protocol
-	_ "github.com/dedis/cothority/protocols"
-	_ "github.com/dedis/cothority/services"
+	_ "cothority/protocols"
+	_ "cothority/services"
 )
 
 // The address of this host - if there is only one host in the config

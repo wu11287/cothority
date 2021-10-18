@@ -11,15 +11,15 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 
 	// Import protocols so every protocols is registered to the sda
 	"strings"
 
 	// We implicitely imports all available protocols here since it's usually
 	// done in the main for production purpose
-	_ "github.com/dedis/cothority/protocols"
-	_ "github.com/dedis/cothority/services"
+	_ "cothority/protocols"
+	_ "cothority/services"
 )
 
 // Localhost is responsible for launching the app with the specified number of nodes
