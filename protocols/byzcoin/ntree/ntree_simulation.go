@@ -1,9 +1,10 @@
 package byzcoinNtree
 
 import (
+	"cothority/log"
+
+	"cothority/monitor"
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/log"
-	"github.com/dedis/cothority/monitor"
 	"github.com/dedis/cothority/protocols/byzcoin"
 	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
 	"github.com/dedis/cothority/sda"

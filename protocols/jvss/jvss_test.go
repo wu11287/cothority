@@ -3,7 +3,7 @@ package jvss
 import (
 	"testing"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/cothority/sda"
 	"github.com/stretchr/testify/assert"
 )

@@ -4,7 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/crypto/abstract"
 	"golang.org/x/net/context"
 )

@@ -3,7 +3,8 @@ package byzcoin
 import (
 	"sync"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/protocols/byzcoin/blockchain/blkparser"
 	"github.com/dedis/cothority/sda"
 )

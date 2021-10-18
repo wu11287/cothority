@@ -1,8 +1,9 @@
 package byzcoin
 
 import (
+	"cothority/log"
 	"errors"
-	"github.com/dedis/cothority/log"
+
 	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
 )
 

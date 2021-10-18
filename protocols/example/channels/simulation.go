@@ -4,9 +4,10 @@ import (
 	"errors"
 	"strconv"
 
+	"cothority/log"
+
+	"cothority/monitor"
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/log"
-	"github.com/dedis/cothority/monitor"
 	"github.com/dedis/cothority/sda"
 )
 

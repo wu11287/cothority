@@ -18,8 +18,8 @@ import (
 	"path"
 	"runtime"
 
+	"cothority/log"
 	c "github.com/dedis/cothority/app/lib/config"
-	"github.com/dedis/cothority/log"
 	"gopkg.in/codegangsta/cli.v1"
 	// Empty imports to have the init-functions called which should
 	// register the protocol

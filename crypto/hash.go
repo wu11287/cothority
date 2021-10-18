@@ -10,7 +10,8 @@ import (
 	"encoding"
 	"reflect"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/crypto/abstract"
 )
 

@@ -7,8 +7,8 @@ import (
 
 	"errors"
 
+	"cothority/log"
 	"github.com/dedis/cothority/app/lib/config"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/sda"
 
 	"sort"

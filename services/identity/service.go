@@ -24,8 +24,9 @@ import (
 
 	"fmt"
 
+	"cothority/log"
+
 	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/cothority/protocols/manage"
 	"github.com/dedis/cothority/sda"

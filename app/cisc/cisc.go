@@ -19,8 +19,8 @@ import (
 
 	"bytes"
 
+	"cothority/log"
 	"github.com/dedis/cothority/app/lib/config"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/services/identity"
 	"gopkg.in/codegangsta/cli.v1"
 )

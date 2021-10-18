@@ -3,7 +3,7 @@ package crypto
 import (
 	"testing"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 func TestMain(m *testing.M) {

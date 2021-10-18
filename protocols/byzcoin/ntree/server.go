@@ -1,7 +1,7 @@
 package byzcoinNtree
 
 import (
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/cothority/protocols/byzcoin"
 	"github.com/dedis/cothority/sda"
 )

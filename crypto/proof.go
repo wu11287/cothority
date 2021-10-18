@@ -8,7 +8,7 @@ import (
 	gohash "hash"
 	"strconv"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/crypto/abstract"
 )
 

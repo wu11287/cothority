@@ -6,7 +6,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/protocols/byzcoin/blockchain/blkparser"
 )
 

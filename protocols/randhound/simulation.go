@@ -3,8 +3,8 @@ package randhound
 import (
 	"time"
 
+	"cothority/log"
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/sda"
 )
 

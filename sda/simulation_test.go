@@ -8,7 +8,7 @@ import (
 
 	"io/ioutil"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 func TestSimulationBF(t *testing.T) {

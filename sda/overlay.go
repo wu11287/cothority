@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/crypto/abstract"
-	"github.com/satori/go.uuid"
 )
 
 // Overlay keeps all trees and entity-lists for a given host. It creates

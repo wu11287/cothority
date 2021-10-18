@@ -15,8 +15,8 @@ import (
 	"crypto/cipher"
 	"crypto/rand"
 
+	"cothority/log"
 	"github.com/dedis/cothority/app/lib/config"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/sda"
 	"github.com/dedis/cothority/services/guard"
 	"github.com/dedis/crypto/abstract"

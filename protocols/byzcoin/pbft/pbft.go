@@ -7,7 +7,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
 	"github.com/dedis/cothority/sda"
 	"github.com/dedis/crypto/abstract"

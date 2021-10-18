@@ -1,8 +1,9 @@
 package cosimul
 
 import (
+	"cothority/log"
+
 	"github.com/dedis/cosi/protocol"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/sda"
 	"github.com/dedis/crypto/abstract"
 )

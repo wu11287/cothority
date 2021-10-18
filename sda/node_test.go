@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/network"
-	"github.com/satori/go.uuid"
 )
 
 func init() {

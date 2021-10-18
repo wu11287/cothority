@@ -6,9 +6,9 @@ Defines the service of Byzcoin-NG that intatiates one bfrcosi protocol per block
 
 import (
 	"container/heap"
+	"cothority/log"
 	"encoding/json"
 	"errors"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/cothority/protocols/bftcosi"
 	"github.com/dedis/cothority/protocols/byzcoin/blockchain"

@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
+	"cothority/log"
 	"github.com/dedis/cothority/app/lib/config"
 	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/cothority/sda"
 

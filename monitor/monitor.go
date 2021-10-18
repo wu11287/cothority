@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 // This file handles the collection of measurements, aggregates them and

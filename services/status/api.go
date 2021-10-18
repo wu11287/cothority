@@ -3,7 +3,7 @@ package status
 import (
 	"errors"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/cothority/sda"
 )

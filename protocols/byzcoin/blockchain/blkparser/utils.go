@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 // Get the Tx count, decode the variable length integer

@@ -3,7 +3,7 @@ package sda
 import (
 	"testing"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 // To avoid setting up testing-verbosity in all tests

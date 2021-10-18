@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net"
 
+	"cothority/log"
 	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/log"
 )
 
 type Block struct {

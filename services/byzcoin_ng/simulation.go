@@ -1,13 +1,14 @@
 package byzcoin_ng
 
 import (
-	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/log"
-	"github.com/dedis/cothority/monitor"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
-	"github.com/dedis/cothority/sda"
+	"cothority/log"
 	"sync"
 	"time"
+
+	"cothority/monitor"
+	"github.com/BurntSushi/toml"
+	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
+	"github.com/dedis/cothority/sda"
 )
 
 /*

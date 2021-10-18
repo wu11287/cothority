@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 // Sink is the server address where all measures are transmitted to for

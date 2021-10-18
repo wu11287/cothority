@@ -3,8 +3,9 @@ package medco
 import (
 	"strconv"
 
+	"cothority/log"
+
 	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/cothority/sda"
 	"github.com/dedis/cothority/services/medco/libmedco"

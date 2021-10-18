@@ -28,7 +28,7 @@ import (
 
 	"strings"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/config"
 )

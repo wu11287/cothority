@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 // Implements a simple proxy

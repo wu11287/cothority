@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 // Blockchain is a struct representing a block chain

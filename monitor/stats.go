@@ -10,7 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/montanaflynn/stats"
 )
 

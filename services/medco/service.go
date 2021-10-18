@@ -1,8 +1,8 @@
 package medco
 
 import (
+	"cothority/log"
 	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/cothority/protocols/medco"
 	"github.com/dedis/cothority/sda"

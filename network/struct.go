@@ -10,12 +10,13 @@ import (
 	"sync"
 	"time"
 
+	"cothority/log"
+
+	"cothority/monitor"
+
 	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/log"
-	"github.com/dedis/cothority/monitor"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/protobuf"
-	"github.com/satori/go.uuid"
 	"golang.org/x/net/context"
 )
 

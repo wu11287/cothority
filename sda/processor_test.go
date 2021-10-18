@@ -7,7 +7,8 @@ import (
 
 	"errors"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/crypto/config"
 	"github.com/stretchr/testify/assert"

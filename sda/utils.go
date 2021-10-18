@@ -8,8 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"cothority/log"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/log"
 )
 
 // WriteTomlConfig write  any structure to a toml-file

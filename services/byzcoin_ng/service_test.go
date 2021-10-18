@@ -3,7 +3,7 @@ package byzcoin_ng
 import (
 	"testing"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/cothority/sda"
 )
 

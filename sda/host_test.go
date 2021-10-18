@@ -5,12 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/network"
 
 	"fmt"
-
-	"github.com/satori/go.uuid"
 )
 
 // Test setting up of Host

@@ -7,10 +7,10 @@ import (
 
 	"math/rand"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/crypto/abstract"
-	"github.com/satori/go.uuid"
 )
 
 // In this file we define the main structures used for a running protocol

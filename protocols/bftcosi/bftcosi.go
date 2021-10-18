@@ -9,9 +9,9 @@ the first round.
 */
 
 import (
+	"cothority/log"
 	"crypto/sha512"
 	"errors"
-	"github.com/dedis/cothority/log"
 	"github.com/dedis/cothority/network"
 	"github.com/dedis/cothority/sda"
 	"github.com/dedis/crypto/abstract"

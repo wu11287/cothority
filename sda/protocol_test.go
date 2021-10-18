@@ -6,7 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/network"
 )
 

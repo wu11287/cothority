@@ -4,9 +4,11 @@ import (
 	"errors"
 	"sync"
 
+	"cothority/log"
+
+	"cothority/monitor"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/log"
-	"github.com/dedis/cothority/monitor"
 	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
 	"github.com/dedis/cothority/protocols/byzcoin/cosi"
 	"github.com/dedis/cothority/protocols/manage"
