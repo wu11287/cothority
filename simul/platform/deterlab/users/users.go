@@ -15,7 +15,7 @@ import (
 	"strconv"
 
 	"cothority/log"
-	"github.com/dedis/cothority/monitor"
+	"cothority/monitor"
 	"github.com/dedis/cothority/sda"
 	"github.com/dedis/cothority/simul/platform"
 )

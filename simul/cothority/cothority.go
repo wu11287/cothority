@@ -10,7 +10,7 @@ import (
 	"cothority/log"
 	"github.com/dedis/cothority/sda"
 
-	"github.com/dedis/cothority/monitor"
+	"cothority/monitor"
 	"github.com/dedis/cothority/protocols/manage"
 	// Empty imports to have the init-functions called which should
 	// register the protocol
