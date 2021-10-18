@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PLATFORM="deterlab"
+PLATFORM="localhost"
 
 if [ -z "$1" ]; then
     echo "Syntax: $0 directory [flags]"
