@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"cothority/log"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 )
 
 func TestMain(m *testing.M) {

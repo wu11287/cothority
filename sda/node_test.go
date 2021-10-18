@@ -6,7 +6,7 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
 )
 
 func init() {

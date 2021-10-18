@@ -19,10 +19,12 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/protocols/bftcosi"
-	"github.com/dedis/cothority/protocols/manage"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/network"
+
+	"cothority/protocols/bftcosi"
+	"cothority/protocols/manage"
 )
 
 // ServiceName can be used to refer to the name of this service

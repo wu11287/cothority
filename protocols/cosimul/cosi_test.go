@@ -5,7 +5,8 @@ import (
 	"time"
 
 	"cothority/log"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
 	"github.com/dedis/crypto/cosi"
 )
 

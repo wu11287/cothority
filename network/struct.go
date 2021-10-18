@@ -14,7 +14,7 @@ import (
 
 	"cothority/monitor"
 
-	"github.com/dedis/cothority/crypto"
+	"cothority/crypto"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/protobuf"
 	"golang.org/x/net/context"

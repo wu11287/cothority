@@ -11,8 +11,9 @@ import (
 
 	"cothority/log"
 
+	"cothority/network"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/network"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/config"
 )

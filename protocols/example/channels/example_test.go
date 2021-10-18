@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"cothority/log"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/protocols/example/channels"
-	"github.com/dedis/cothority/sda"
+	"cothority/network"
+	"cothority/protocols/example/channels"
+	"cothority/sda"
 )
 
 func TestMain(m *testing.M) {

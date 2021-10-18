@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
+	"cothority/crypto"
 	"cothority/log"
-	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
+	"cothority/network"
+	"cothority/sda"
 )
 
 func init() {

@@ -24,9 +24,9 @@ import (
 	// Empty imports to have the init-functions called which should
 	// register the protocol
 
+	_ "cothority/protocols"
+	_ "cothority/services"
 	"github.com/dedis/cothority/app/lib/server"
-	_ "github.com/dedis/cothority/protocols"
-	_ "github.com/dedis/cothority/services"
 )
 
 // DefaultName is the name of the binary we produce and is used to create a directory

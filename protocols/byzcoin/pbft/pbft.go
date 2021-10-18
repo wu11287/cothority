@@ -8,8 +8,9 @@ import (
 	"time"
 
 	"cothority/log"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
-	"github.com/dedis/cothority/sda"
+	"cothority/protocols/byzcoin/blockchain"
+	"cothority/sda"
+
 	"github.com/dedis/crypto/abstract"
 )
 

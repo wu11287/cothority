@@ -8,13 +8,13 @@ import (
 	"errors"
 
 	"cothority/log"
+	"cothority/sda"
 	"github.com/dedis/cothority/app/lib/config"
-	"github.com/dedis/cothority/sda"
 
 	"sort"
 	"strings"
 
-	"github.com/dedis/cothority/services/status"
+	"cothority/services/status"
 	"gopkg.in/codegangsta/cli.v1"
 )
 

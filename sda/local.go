@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"cothority/log"
-	"github.com/dedis/cothority/network"
+	"cothority/network"
+
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/config"
-	"github.com/satori/go.uuid"
 )
 
 // LocalTest represents all that is needed for a local test-run

@@ -3,8 +3,8 @@ package cosimul
 import (
 	"cothority/log"
 
+	"cothority/sda"
 	"github.com/dedis/cosi/protocol"
-	"github.com/dedis/cothority/sda"
 	"github.com/dedis/crypto/abstract"
 )
 

@@ -7,11 +7,13 @@ import (
 	"fmt"
 	"strings"
 
+	"cothority/crypto"
 	"cothority/log"
-	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
-	"github.com/dedis/cothority/services/skipchain"
+	"cothority/network"
+	"cothority/sda"
+
+	"cothority/services/skipchain"
+
 	"github.com/dedis/crypto/abstract"
 )
 

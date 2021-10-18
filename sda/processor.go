@@ -8,7 +8,7 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
 )
 
 // Dispatcher is an interface whose sole role is to distribute messages to the

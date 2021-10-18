@@ -1,6 +1,6 @@
 package sda
 
-import "github.com/dedis/cothority/network"
+import "cothority/network"
 
 // Context is the interface that is given to a Service
 type Context struct {

@@ -7,7 +7,8 @@ import (
 	"sync"
 
 	"cothority/log"
-	"github.com/dedis/cothority/network"
+	"cothority/network"
+
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 )

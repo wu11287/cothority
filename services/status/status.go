@@ -3,8 +3,9 @@ package status
 import (
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/network"
 )
 
 // This file contains all the code to run a Stat service. The Stat receives takes a

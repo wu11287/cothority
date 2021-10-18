@@ -14,7 +14,8 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
+
 	"github.com/dedis/crypto/config"
 	"golang.org/x/net/context"
 )

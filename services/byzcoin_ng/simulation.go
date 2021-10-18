@@ -6,9 +6,11 @@ import (
 	"time"
 
 	"cothority/monitor"
+	"cothority/sda"
+
+	"cothority/protocols/byzcoin/blockchain"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
-	"github.com/dedis/cothority/sda"
 )
 
 /*

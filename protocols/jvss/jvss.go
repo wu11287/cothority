@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"cothority/log"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/config"
 	"github.com/dedis/crypto/poly"

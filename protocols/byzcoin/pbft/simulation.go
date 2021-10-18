@@ -4,10 +4,12 @@ import (
 	"cothority/log"
 
 	"cothority/monitor"
+	"cothority/sda"
+
+	"cothority/protocols/byzcoin/blockchain"
+	"cothority/protocols/manage"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
-	"github.com/dedis/cothority/protocols/manage"
-	"github.com/dedis/cothority/sda"
 )
 
 var magicNum = [4]byte{0xF9, 0xBE, 0xB4, 0xD9}

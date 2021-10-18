@@ -3,9 +3,10 @@ package cosimul
 import (
 	"cothority/log"
 	"cothority/monitor"
+	"cothority/sda"
+
+	"cothority/network"
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
 	"github.com/dedis/crypto/cosi"
 )
 

@@ -6,9 +6,10 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/protocols/manage"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/network"
+	"cothority/protocols/manage"
 )
 
 // Tests a 2-node system

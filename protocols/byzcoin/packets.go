@@ -1,9 +1,10 @@
 package byzcoin
 
 import (
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
-	"github.com/dedis/cothority/protocols/byzcoin/cosi"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/protocols/byzcoin/blockchain"
+	"cothority/protocols/byzcoin/cosi"
 )
 
 // RoundType is a type to know if we are in the "prepare" round or the "commit"

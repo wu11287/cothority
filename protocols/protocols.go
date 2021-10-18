@@ -28,16 +28,16 @@ Only used to include the different protocols
 
 import (
 	// Don't forget to "register" your protocols here too
-	_ "github.com/dedis/cothority/protocols/cosimul"
-	_ "github.com/dedis/cothority/protocols/example/channels"
-	_ "github.com/dedis/cothority/protocols/example/handlers"
-	_ "github.com/dedis/cothority/protocols/jvss"
-	_ "github.com/dedis/cothority/protocols/manage"
-	_ "github.com/dedis/cothority/protocols/ntree"
-	_ "github.com/dedis/cothority/protocols/randhound"
+	_ "cothority/protocols/cosimul"
+	_ "cothority/protocols/example/channels"
+	_ "cothority/protocols/example/handlers"
+	_ "cothority/protocols/jvss"
+	_ "cothority/protocols/manage"
+	_ "cothority/protocols/ntree"
+	_ "cothority/protocols/randhound"
 	// ByzCoin has some strange library which uses 'seelog' that doesn't
 	// free all go-routines
-	_ "github.com/dedis/cothority/protocols/byzcoin"
-	_ "github.com/dedis/cothority/protocols/byzcoin/ntree"
-	_ "github.com/dedis/cothority/protocols/byzcoin/pbft"
+	_ "cothority/protocols/byzcoin"
+	_ "cothority/protocols/byzcoin/ntree"
+	_ "cothority/protocols/byzcoin/pbft"
 )

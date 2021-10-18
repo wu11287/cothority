@@ -3,7 +3,7 @@ package randhound
 import (
 	"fmt"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/random"
 )

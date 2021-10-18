@@ -10,13 +10,14 @@ the first round.
 
 import (
 	"cothority/log"
+	"cothority/sda"
 	"crypto/sha512"
 	"errors"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
+	"sync"
+
+	"cothority/network"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/cosi"
-	"sync"
 )
 
 // VerificationFunction can be passes to each protocol node. It will be called

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"cothority/log"
-	"github.com/dedis/cothority/protocols/ntree"
-	"github.com/dedis/cothority/sda"
+	"cothority/protocols/ntree"
+	"cothority/sda"
 )
 
 func TestMain(m *testing.M) {

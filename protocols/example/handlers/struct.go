@@ -1,6 +1,6 @@
 package handlers
 
-import "github.com/dedis/cothority/sda"
+import "cothority/sda"
 
 // Announce is used to pass a message to all children.
 type Announce struct {

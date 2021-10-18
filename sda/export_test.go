@@ -3,7 +3,7 @@ package sda
 import (
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
 )
 
 // Export some private functions of Host for testing

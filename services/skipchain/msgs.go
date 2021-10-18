@@ -1,8 +1,7 @@
 package skipchain
 
 import (
-	"github.com/dedis/cothority/network"
-	"github.com/satori/go.uuid"
+	"cothority/network"
 )
 
 func init() {

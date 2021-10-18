@@ -6,8 +6,10 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
-	. "github.com/dedis/cothority/services/medco/libmedco"
+	"cothority/network"
+
+	. "cothority/services/medco/libmedco"
+
 	"github.com/dedis/crypto/random"
 )
 

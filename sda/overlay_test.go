@@ -3,7 +3,7 @@ package sda
 import (
 	"testing"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
 )
 
 type ProtocolOverlay struct {

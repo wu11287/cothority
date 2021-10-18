@@ -26,11 +26,14 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/protocols/manage"
-	"github.com/dedis/cothority/sda"
-	"github.com/dedis/cothority/services/skipchain"
+	"cothority/sda"
+
+	"cothority/network"
+
+	"cothority/crypto"
+
+	"cothority/protocols/manage"
+	"cothority/services/skipchain"
 )
 
 // ServiceName can be used to refer to the name of this service

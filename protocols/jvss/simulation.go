@@ -4,8 +4,9 @@ import (
 	"cothority/log"
 
 	"cothority/monitor"
+	"cothority/sda"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/sda"
 )
 
 func init() {

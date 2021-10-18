@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"cothority/log"
-	"github.com/dedis/cothority/protocols/randhound"
-	"github.com/dedis/cothority/sda"
+	"cothority/protocols/randhound"
+	"cothority/sda"
 )
 
 func TestMain(m *testing.M) {

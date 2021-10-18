@@ -9,7 +9,7 @@ This part of the service runs on the client or the app.
 */
 
 import (
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 )
 
 // Client is a structure to communicate with the CoSi

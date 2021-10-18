@@ -2,11 +2,11 @@ package medco
 
 import (
 	"cothority/log"
+	"cothority/network"
+	"cothority/protocols/medco"
+	"cothority/sda"
+	"cothority/services/medco/libmedco"
 	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/protocols/medco"
-	"github.com/dedis/cothority/sda"
-	"github.com/dedis/cothority/services/medco/libmedco"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/random"
 	"github.com/satori/go.uuid"

@@ -4,9 +4,11 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/log"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain/blkparser"
+	"cothority/crypto"
+
+	"cothority/log"
+
+	"cothority/protocols/byzcoin/blockchain/blkparser"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/suites"
 )

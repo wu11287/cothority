@@ -5,7 +5,7 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 )
 
 func init() {

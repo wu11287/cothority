@@ -6,8 +6,9 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/network"
 )
 
 // TODO - correctly convert the BFT-signature to CoSi-Signature by removing

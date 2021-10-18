@@ -5,7 +5,7 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
 )
 
 // ProtocolID uniquely identifies a protocol

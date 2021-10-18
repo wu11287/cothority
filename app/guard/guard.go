@@ -16,9 +16,9 @@ import (
 	"crypto/rand"
 
 	"cothority/log"
+	"cothority/sda"
+	"cothority/services/guard"
 	"github.com/dedis/cothority/app/lib/config"
-	"github.com/dedis/cothority/sda"
-	"github.com/dedis/cothority/services/guard"
 	"github.com/dedis/crypto/abstract"
 
 	"io/ioutil"
@@ -28,7 +28,7 @@ import (
 
 	"bytes"
 
-	"github.com/dedis/cothority/network"
+	"cothority/network"
 )
 
 // User is a representation of the Users data in the code, and is used to store

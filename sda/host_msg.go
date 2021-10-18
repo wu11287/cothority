@@ -3,8 +3,7 @@ package sda
 import (
 	"sync"
 
-	"github.com/dedis/cothority/network"
-	"github.com/satori/go.uuid"
+	"cothority/network"
 )
 
 // SDADataMessageID is to be embedded in every message that is made for a

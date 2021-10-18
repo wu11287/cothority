@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"cothority/log"
-	"github.com/dedis/cothority/sda"
-	"github.com/dedis/cothority/services/medco"
-	. "github.com/dedis/cothority/services/medco/libmedco"
+	"cothority/sda"
+	"cothority/services/medco"
+	. "cothority/services/medco/libmedco"
 )
 
 // numberGrpAttr is the number of group attributes.

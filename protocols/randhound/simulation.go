@@ -4,8 +4,9 @@ import (
 	"time"
 
 	"cothority/log"
+	"cothority/sda"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/sda"
 )
 
 func init() {

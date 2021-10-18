@@ -5,7 +5,7 @@ import (
 
 	"time"
 
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
 )
 
 // Tests a 2-node system

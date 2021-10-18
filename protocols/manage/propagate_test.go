@@ -9,8 +9,9 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/network"
 )
 
 type PropagateMsg struct {

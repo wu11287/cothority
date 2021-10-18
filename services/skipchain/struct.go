@@ -8,10 +8,11 @@ import (
 	"errors"
 
 	"cothority/log"
-	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/protocols/bftcosi"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/crypto"
+	"cothority/network"
+	"cothority/protocols/bftcosi"
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/crypto/cosi"
 )

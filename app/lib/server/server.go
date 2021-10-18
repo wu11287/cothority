@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
+	"cothority/crypto"
 	"cothority/log"
+	"cothority/network"
+	"cothority/sda"
 	"github.com/dedis/cothority/app/lib/config"
-	"github.com/dedis/cothority/crypto"
-	"github.com/dedis/cothority/network"
-	"github.com/dedis/cothority/sda"
 
 	"regexp"
 

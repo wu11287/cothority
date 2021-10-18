@@ -4,7 +4,7 @@ import (
 	"cothority/log"
 	"errors"
 
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
+	"cothority/protocols/byzcoin/blockchain"
 )
 
 var magicNum = [4]byte{0xF9, 0xBE, 0xB4, 0xD9}

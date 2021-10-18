@@ -12,10 +12,12 @@ import (
 
 	"cothority/log"
 	"cothority/monitor"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain/blkparser"
-	"github.com/dedis/cothority/protocols/byzcoin/cosi"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/protocols/byzcoin/blockchain"
+	"cothority/protocols/byzcoin/blockchain/blkparser"
+	"cothority/protocols/byzcoin/cosi"
+
 	"github.com/dedis/crypto/abstract"
 )
 

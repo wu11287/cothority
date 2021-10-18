@@ -4,10 +4,12 @@ import (
 	"cothority/log"
 
 	"cothority/monitor"
+	"cothority/sda"
+
+	"cothority/protocols/byzcoin"
+	"cothority/protocols/byzcoin/blockchain"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/protocols/byzcoin"
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain"
-	"github.com/dedis/cothority/sda"
 )
 
 func init() {

@@ -8,7 +8,7 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/protocols/byzcoin/blockchain/blkparser"
+	"cothority/protocols/byzcoin/blockchain/blkparser"
 )
 
 type Parser struct {

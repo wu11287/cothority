@@ -5,8 +5,9 @@ import (
 
 	"cothority/log"
 
-	"github.com/dedis/cothority/protocols/example/channels"
-	"github.com/dedis/cothority/sda"
+	"cothority/sda"
+
+	"cothority/protocols/example/channels"
 	"github.com/stretchr/testify/assert"
 )
 
