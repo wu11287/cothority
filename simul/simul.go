@@ -14,7 +14,7 @@ import (
 
 	"cothority/log"
 	"cothority/monitor"
-	"github.com/dedis/cothority/simul/platform"
+	"cothority/simul/platform"
 )
 
 // Configuration-variables

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"cothority/log"
-	"github.com/dedis/cothority/simul/platform"
+	"cothority/simul/platform"
 )
 
 var testfile = `Machines = 8
