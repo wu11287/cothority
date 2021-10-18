@@ -1,0 +1,12 @@
+.idea
+test_data
+simul/platform/deterlab/build
+simul/platform/deterlab/remote/*
+simul/platform/deterlab/deter.toml
+simul/platform/localhost/*
+simul/platform/localhost
+simul/matplotlib/*csv
+simul/simul
+lib/sda/testdata
+*.pyc
+*.iml

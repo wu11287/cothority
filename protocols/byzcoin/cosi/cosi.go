@@ -37,7 +37,7 @@ import (
 	"time"
 
 	"github.com/dedis/crypto/abstract"
-	"github.com/dedis/crypto/config"
+	"gopkg.in/dedis/crypto.v0/config"
 )
 
 // Cosi is the struct that implements the basic cosi.

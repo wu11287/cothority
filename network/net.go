@@ -30,7 +30,7 @@ import (
 
 	"cothority/log"
 	"github.com/dedis/crypto/abstract"
-	"github.com/dedis/crypto/config"
+	"gopkg.in/dedis/crypto.v0/config"
 )
 
 // Network part //

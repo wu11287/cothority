@@ -9,8 +9,10 @@ import (
 	"cothority/log"
 
 	"cothority/protocols/byzcoin/blockchain/blkparser"
+	// "github.com/dedis/crypto/abstract"
+	// "github.com/dedis/crypto/suites"
 	"github.com/dedis/crypto/abstract"
-	"github.com/dedis/crypto/suites"
+	"gopkg.in/dedis/crypto.v0/suites"
 )
 
 type MessageType int

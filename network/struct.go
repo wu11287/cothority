@@ -15,8 +15,10 @@ import (
 	"cothority/monitor"
 
 	"cothority/crypto"
+
 	"github.com/dedis/crypto/abstract"
 	"github.com/dedis/protobuf"
+	uuid "github.com/satori/go.uuid"
 	"golang.org/x/net/context"
 )
 

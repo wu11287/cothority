@@ -1,0 +1,12 @@
+Description = "Default Dedis Cosi servers"
+
+[[servers]]
+  Addresses = ["78.46.227.60:2000"]
+  Public = "sWhBLrvgwDBwb4gsvQEqp38o1xXEuko5rjy8AqrlNWg="
+  Description = "Ineiti's server"
+
+[[servers]]
+  Addresses = ["192.33.210.8:6879"]
+  Public = "GDM8DlweNi9RL96mFEtQqM9qBnsm/GCW5SgWD98C2VU="
+  Description = "EPFL CoSi server"
+
