@@ -12,8 +12,9 @@ import (
 	"strconv"
 	"strings"
 
+	"cothority/log"
+
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/log"
 )
 
 // Platform interface that has to be implemented to add another simulation-

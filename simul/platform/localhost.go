@@ -9,8 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
+
 	"github.com/dedis/cothority/sda"
+
 	// Import protocols so every protocols is registered to the sda
 	"strings"
 

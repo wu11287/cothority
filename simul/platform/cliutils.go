@@ -8,7 +8,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 )
 
 // Scp copies the given files to the remote host

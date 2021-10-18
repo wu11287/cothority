@@ -12,7 +12,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/dedis/cothority/log"
+	"cothority/log"
 	"github.com/dedis/cothority/monitor"
 	"github.com/dedis/cothority/simul/platform"
 )
