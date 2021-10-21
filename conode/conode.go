@@ -221,6 +221,7 @@ func setup(c *cli.Context) error {
 		serverBinding := network.NewAddress(network.TLS, net.JoinHostPort(host, portStr))
 		kp := key.NewKeyPair(cothority.Suite)
 
+		//pub\priv 都是string类型
 		pub, _ := encoding.PointToStringHex(cothority.Suite, kp.Public)
 		priv, _ := encoding.ScalarToStringHex(cothority.Suite, kp.Private)
 

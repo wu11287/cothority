@@ -6,7 +6,7 @@ OPTIND=1         # Reset in case getopts has been used previously in the shell.
 
 # Initialize our own variables:
 verbose=0
-nbr_nodes=3
+nbr_nodes=100
 base_port=7770
 base_ip=localhost
 data_dir=.
@@ -14,20 +14,22 @@ show_all="true"
 show_time="false"
 single=""
 
+GO=/usr/bin/go
+
 while getopts "h?v:n:p:i:d:qftsca" opt; do
     case "$opt" in
     h|\?)
         echo "Allowed arguments:
 
         -h help
-        -v verbosity level: none (0) - full (5)
+        -v verbosity level: none (0) - full (5)  什么意思？
         -t show timestamps on logging
         -c show logs in color
         -n number of nodes (3)
         -p port base in case of new configuration (7000)
         -i IP in case of new configuration (localhost)
         -d data dir to store private keys, databases and logs (.)
-        -q quiet all non-leader nodes
+        -q quiet all nonleader nodes
         -s don't start failing nodes again
         -f flush databases and start from scratch
         -a allow insecure lts creations"
@@ -80,6 +82,7 @@ fi
 rm -f public.toml
 mkdir -p log
 touch running
+start=$(date +%s%N)/1000000
 for n in $( seq $nbr_nodes ); do
   co=co$n
   PORT=$(($base_port + 2 * n - 2))
@@ -93,7 +96,16 @@ for n in $( seq $nbr_nodes ); do
     while [[ -f running ]]; do
       echo "Starting conode $LOG"
       if [[ "$SHOW" ]]; then
-        $CONODE_BIN -d $verbose -c $co/private.toml server 2>&1 | tee $LOG-$(date +%y%m%d-%H%M).log
+        # #pow
+        # file_name=$co/public.toml
+        # $GO run pow.go $file_name
+
+        # pos
+        $GO run ./pos/pos.go > ./tmp.txt
+        ischoosed=$(cat ./tmp.txt)
+        if [ $ischoosed="true" ]; then
+          $CONODE_BIN -d $verbose -c $co/private.toml server 2>&1 | tee $LOG-$(date +%y%m%d-%H%M).log
+        fi
       else
         $CONODE_BIN -d $verbose -c $co/private.toml server > $LOG-$(date +%y%m%d-%H%M).log 2>&1
       fi
@@ -103,15 +115,25 @@ for n in $( seq $nbr_nodes ); do
       fi
       sleep 1
     done
-  ) &
-  cat $co/public.toml >> public.toml
+  ) & (
+    if [ $ischoosed="true" ]; then
+      cat $co/public.toml >> public.toml
+    fi
+  )
+  # cat $co/public.toml >> public.toml
   # Wait for LOG to be initialized
   sleep 1
 done
 
+end=$(date +%s%N)/1000000
+take=$(( end - start ))
+echo Time taken to execute commands is ${take} ms 
+
 trap ctrl_c INT
 
 function ctrl_c() {
+  rm *.db
+  rm -rf `ls -d */`
   rm running
   pkill conode
 }

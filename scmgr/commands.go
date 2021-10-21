@@ -123,7 +123,7 @@ func getCommands() cli.Commands {
 					Subcommands: cli.Commands{
 						{
 							Name:      "add",
-							Usage:     "create a new block on the server and save it in local cache",
+							Usage:     "create a new block on the server and save it in local cache",  // 创建新区块并存储在本地缓存中
 							Aliases:   []string{"a"},
 							ArgsUsage: "skipchain-id",
 							Action:    scAdd,
