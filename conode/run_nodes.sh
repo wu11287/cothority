@@ -6,7 +6,7 @@ OPTIND=1         # Reset in case getopts has been used previously in the shell.
 
 # Initialize our own variables:
 verbose=0
-nbr_nodes=100
+nbr_nodes=3
 base_port=7770
 base_ip=localhost
 data_dir=.
@@ -96,11 +96,6 @@ for n in $( seq $nbr_nodes ); do
     while [[ -f running ]]; do
       echo "Starting conode $LOG"
       if [[ "$SHOW" ]]; then
-        # #pow
-        # file_name=$co/public.toml
-        # $GO run pow.go $file_name
-
-        # pos
         $GO run ./pos/pos.go > ./tmp.txt
         ischoosed=$(cat ./tmp.txt)
         if [ $ischoosed="true" ]; then
@@ -125,6 +120,8 @@ for n in $( seq $nbr_nodes ); do
   sleep 1
 done
 
+echo "end"
+
 end=$(date +%s%N)/1000000
 take=$(( end - start ))
 echo Time taken to execute commands is ${take} ms 
@@ -133,7 +130,7 @@ trap ctrl_c INT
 
 function ctrl_c() {
   rm *.db
-  rm -rf `ls -d */`
+  rm -rf `ls -d co*/`
   rm running
   pkill conode
 }

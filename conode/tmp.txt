@@ -1,0 +1,4 @@
+Found link for tls://localhost:7770 and using signed request
+Creating new skipchain with leader tls://localhost:7770 and roster &{ID:ddb5c482-b6c0-5ad2-b22f-d688f6ca2099 List:[tls://localhost:7770] Aggregate:e0230ef21d83b8fd89c5d93e6520f9cd3ba80bbd9ff291dc46a64692720d7c45}.
+Base-height: 10; Maximum-height: 10
+Created new skipblock with id 7d17daecace4e262271bf2ba71d563b0e190c36b366145673304d2ec0d17cbcb
