@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package initial;
+
+option go_package = "./;initial";
+
+message PkAndId {
+    bytes pk = 1;
+    int32 id = 2;
+}
+
+
+message ProofMsg{
+    bytes proof = 1;
+    int32 id = 2;
+    bytes ip = 3;
+    bytes randomness = 4;
+}
+
+service BroadAll {
+    rpc BroadPK(PkAndId) returns (stream PkAndId) {}
+    rpc BroadProof(ProofMsg) returns (stream ProofMsg) {}
+}

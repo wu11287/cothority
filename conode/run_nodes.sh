@@ -8,11 +8,15 @@ OPTIND=1         # Reset in case getopts has been used previously in the shell.
 verbose=0
 nbr_nodes=3
 base_port=7770
+#base_port=$PORT_ENV
 base_ip=localhost
 data_dir=.
 show_all="true"
 show_time="false"
 single=""
+#cnt=$CNT_ENV
+
+GO=/usr/bin/go
 
 while getopts "h?v:n:p:i:d:qftsca" opt; do
     case "$opt" in
@@ -93,6 +97,9 @@ for n in $( seq $nbr_nodes ); do
     while [[ -f running ]]; do
       echo "Starting conode $LOG"
       if [[ "$SHOW" ]]; then
+        # pow
+        file_name=$co/public.toml
+        $GO run pow.go $file_name
         $CONODE_BIN -d $verbose -c $co/private.toml server 2>&1 | tee $LOG-$(date +%y%m%d-%H%M).log
       else
         $CONODE_BIN -d $verbose -c $co/private.toml server > $LOG-$(date +%y%m%d-%H%M).log 2>&1
@@ -112,6 +119,8 @@ done
 trap ctrl_c INT
 
 function ctrl_c() {
+  rm *.db
+  rm -rf `ls -d co*/`
   rm running
   pkill conode
 }
